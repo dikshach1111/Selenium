@@ -1,0 +1,8 @@
+Feature: Application Login
+
+
+Scenario: Home page default login
+Given User is on NetBanking index page
+When User logs into application with username and password
+Then index page is displayed
+And Cards are displayed

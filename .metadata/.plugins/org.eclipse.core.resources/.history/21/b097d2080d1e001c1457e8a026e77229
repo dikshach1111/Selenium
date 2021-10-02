@@ -1,0 +1,29 @@
+package pageObj;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+public class IndexPage {
+
+	public IndexPage(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		this.driver = driver;
+	}
+	
+
+	WebDriver driver;
+	
+	By login  = By.xpath("//a[@href='/account/login?ret=/']");
+	By fName = By.className("_2IX_2- VJZDxU");
+	
+	public WebElement LogIn() {
+		return driver.findElement(login);
+	}
+	
+	public WebElement fName() {
+		return driver.findElement(fName);
+	}
+}

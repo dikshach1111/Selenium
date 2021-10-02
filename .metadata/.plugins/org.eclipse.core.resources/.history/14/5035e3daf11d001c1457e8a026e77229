@@ -1,0 +1,12 @@
+package pageObj;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class IndexPage {
+
+	
+	WebDriver driver;
+	
+	By login = By.xpath("//a[@href='/account/login?ret=/']");
+}

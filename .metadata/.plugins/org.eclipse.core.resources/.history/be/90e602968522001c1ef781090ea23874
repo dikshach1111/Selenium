@@ -1,0 +1,13 @@
+package cucumberOptions;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		stepNotifications= true,
+		strict = true,
+		features = {"src/test/java/features/Login.feature"},
+		glue = {"stepDefinations"})
+
+public class TestRunner {
+
+}

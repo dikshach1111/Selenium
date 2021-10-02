@@ -1,0 +1,21 @@
+package ScratchFramework;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import pageObj.IndexPage;
+import resources.base;
+
+public class HomePage extends base {
+
+	@Test
+	
+	public void basePageNavigation() throws IOException{
+		driver = initDriver();
+		driver.get("https://www.flipkart.com/");
+		
+		IndexPage ip = new IndexPage(driver);
+		ip.LogIn();
+	}
+}

@@ -1,0 +1,6 @@
+12:04:04.314 [TestNG-tests-3] INFO  ScratchFramework.validateTitleTest - Hit URL
+12:04:04.361 [TestNG-tests-3] INFO  ScratchFramework.validateTitleTest - Handle popUp
+12:04:11.389 [TestNG-tests-3] INFO  ScratchFramework.validateTitleTest - Close driver
+12:04:11.965 [TestNG-tests-1] INFO  ScratchFramework.HomePageTest - nonRestrictedUser
+12:04:11.965 [TestNG-tests-1] INFO  ScratchFramework.HomePageTest - User validated successfully
+12:04:18.568 [TestNG-tests-1] INFO  ScratchFramework.HomePageTest - restrictedUser

@@ -1,0 +1,61 @@
+package pageObj;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+public class IndexPage {
+
+	public IndexPage(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		this.driver = driver;
+	}
+	
+
+	WebDriver driver;
+	
+	By title = By.cssSelector("._2cAig-");
+	By login  = By.xpath("//a[@href='/account/login?ret=/']");
+	By userName = By.xpath("//div[@class='IiD88i _351hSN']//input[@type='text']");
+	By password = By.cssSelector("._2IX_2-._3mctLh.VJZDxU");
+	By loginBtn = By.cssSelector("._2KpZ6l._2HKlqd._3AWRsL");
+	By mobile = By.cssSelector("._2IX_2-.VJZDxU");
+	By footerNavBar = By.cssSelector("._2uz0vJ");
+	By footer = By.cssSelector("._2WErco row");
+	
+	
+	public WebElement getTitle() {
+		return driver.findElement(title);
+	}
+	
+	public WebElement LogIn() {
+		return driver.findElement(login);
+	}
+	
+	public WebElement userName() {
+		return driver.findElement(userName);
+	}
+	
+	public WebElement password() {
+		return driver.findElement(password);
+	}
+	
+	public WebElement loginBtn() {
+		return driver.findElement(loginBtn);
+	}
+	
+	public WebElement mobile() {
+		return driver.findElement(mobile);
+	}
+	
+	public WebElement footerNavBar() {
+		return driver.findElement(footerNavBar);
+	}
+	
+	public WebElement footer() {
+		return driver.findElement(footer);
+	}
+	
+}

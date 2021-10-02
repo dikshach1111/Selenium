@@ -1,0 +1,11 @@
+package cucumberOptions;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = ""
+		glue = ""
+		)
+public class TestRunner {
+
+}

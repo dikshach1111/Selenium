@@ -1,0 +1,16 @@
+package ScratchFramework;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+public class base {
+	
+	public static void main(String args[]) throws FileNotFoundException {
+		
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream("C:\\Users\\D885319\\Desktop\\diksha\\udemy\\Selenium\\E2EProject\\src\\main\\java\\ScratchFramework\\data.properties");
+		prop.load(fis);
+	}
+
+}

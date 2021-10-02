@@ -1,0 +1,10 @@
+ds22:12:45.205 [main] ERROR alpha.Demo - object is present
+22:12:45.207 [main] FATAL alpha.Demo - this is fatal
+22:13:37.267 [main] DEBUG alpha.Demo - Debugging
+22:13:37.271 [main] INFO  alpha.Demo - obj is present
+22:13:37.271 [main] ERROR alpha.Demo - object is present
+22:13:37.271 [main] FATAL alpha.Demo - this is fatal
+22:35:03.439 [main] DEBUG beta.Test - Testing
+22:35:03.443 [main] INFO  beta.Test - present
+22:35:03.443 [main] ERROR beta.Test - test error
+22:35:03.443 [main] FATAL beta.Test - test fatal

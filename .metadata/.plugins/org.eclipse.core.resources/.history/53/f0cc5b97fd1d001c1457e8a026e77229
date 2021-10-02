@@ -1,0 +1,37 @@
+package pageObj;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+public class IndexPage {
+
+	public IndexPage(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		this.driver = driver;
+	}
+	
+
+	WebDriver driver;
+	
+	By login = By.xpath("//a[@href='/account/login?ret=/']");
+	By cancel = By.className("_2KpZ6l _2doB4z");
+
+
+	public WebElement LogIn() {
+		return driver.findElement(login);
+	}
+	
+	public WebElement close() {
+		Actions a = new Actions(driver);
+		
+		WebElement insertCapitalLetters = driver.findElement(By.className("_2KpZ6l _2doB4z"));
+		
+		//enter data in search box in Cptial letters
+		a.moveToElement(insertCapitalLetters).click().keyDown(Keys.ESCAPE).click().build().perform();;	
+	
+		return driver.findElement(cancel);
+	}
+}

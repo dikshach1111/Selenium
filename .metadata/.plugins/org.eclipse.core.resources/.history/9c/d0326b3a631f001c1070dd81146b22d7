@@ -1,0 +1,15 @@
+import java.sql.DriverManager;
+
+public class jdbcConnection {
+	
+	public static void main(String[] args) {
+		
+		String host = "localhost";
+		String posrt="3306";
+		
+		url = "jdbc:mysql://"+host+":"+port+"/demo";
+		
+		DriverManager.getConnection(url, "root", "root");
+	}
+
+}

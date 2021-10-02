@@ -1,0 +1,6 @@
+12:02:39.440 [TestNG-tests-3] INFO  ScratchFramework.validateTitleTest - Handle popUp
+12:02:39.555 [TestNG-tests-2] INFO  ScratchFramework.validateFooterNavBarTest - Footer validated successfully
+12:02:45.362 [TestNG-tests-1] INFO  ScratchFramework.HomePageTest - nonRestrictedUser
+12:02:45.362 [TestNG-tests-1] INFO  ScratchFramework.HomePageTest - User validated successfully
+12:02:46.784 [TestNG-tests-3] INFO  ScratchFramework.validateTitleTest - Close driver
+12:02:52.241 [TestNG-tests-1] INFO  ScratchFramework.HomePageTest - restrictedUser

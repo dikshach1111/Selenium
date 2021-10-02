@@ -1,0 +1,7 @@
+Section 4: CORE JAVA In depth for Manual testers and Beginners
+
+Section 30: Selenium Framework Optimization & Interview questions
+
+Section 32: Java OOPS Basics for Selenium Part -1
+
+Section 34: Core Java Tutorial - Part 3-Collections API

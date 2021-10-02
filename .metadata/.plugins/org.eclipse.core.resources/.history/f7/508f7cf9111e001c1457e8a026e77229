@@ -1,0 +1,33 @@
+package ScratchFramework;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
+import pageObj.IndexPage;
+import resources.base;
+
+public class HomePage extends base {
+
+	@Test
+	
+	public void basePageNavigation() throws IOException, InterruptedException{
+		driver = initDriver();
+		
+		driver.navigate().to("https://www.flipkart.com");
+		Actions actions = new Actions(driver);
+		Action action = actions.sendKeys(Keys.ESCAPE).build();
+		action.perform();
+		
+		IndexPage ip = new IndexPage(driver);
+		ip.LogIn().click();
+		//ip.userName().sendKeys("abc@example.com");
+		}
+}

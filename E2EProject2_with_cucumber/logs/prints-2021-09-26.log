@@ -1,0 +1,7 @@
+21:19:35.593 [main] INFO  ScratchFramework.validateTitleTest - Close driver
+21:20:36.352 [main] INFO  ScratchFramework.validateTitleTest - Driver is initialised
+21:20:39.904 [main] INFO  ScratchFramework.validateTitleTest - Hit URL
+21:20:39.991 [main] INFO  ScratchFramework.validateTitleTest - Handle popUp
+21:20:50.392 [main] INFO  ScratchFramework.HomePageTest - nonRestrictedUser
+21:20:50.392 [main] INFO  ScratchFramework.HomePageTest - User validated successfully
+21:21:17.826 [main] INFO  ScratchFramework.HomePageTest - restrictedUser

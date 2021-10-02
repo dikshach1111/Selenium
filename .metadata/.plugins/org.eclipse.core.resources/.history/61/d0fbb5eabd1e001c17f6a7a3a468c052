@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="HomePage">
+    <classes>
+      <class name="ScratchFramework.HomePageTest"/>
+      </classes>
+      </test>
+      
+     <!--  <test thread-count="5" name="AppTest">
+    	<classes>
+      	  <class name="ScratchFramework.AppTest"/>
+      </classes>
+      </test> -->
+      
+      <test thread-count="5" name="validateFooterNavBarTest">
+        <classes>
+          <class name="ScratchFramework.validateFooterNavBarTest"/>
+         </classes>
+      </test>
+      
+      <test thread-count="5" name="validateTitleTest">
+    <classes>
+      <class name="ScratchFramework.validateTitleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

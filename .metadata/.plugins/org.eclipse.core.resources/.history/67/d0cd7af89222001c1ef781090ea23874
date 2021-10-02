@@ -1,0 +1,40 @@
+package stepDefinations;
+
+import java.io.IOException;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import resources.base;
+
+public class stepDefination extends base {
+	
+	@Given("Initialize browser with chrome")
+	public void initialize_browser_with_chrome() throws IOException {
+	    // Write code here that turns the phrase above into concrete actions
+		driver = initDriver();
+	}
+	@Given("Navigate to {string} site")
+	public void navigate_to_site(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Given("Click on login button in index page")
+	public void click_on_login_button_in_index_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user enters {string} and {string}")
+	public void user_enters_and(String string, String string2) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("verify user is successfully logged in")
+	public void verify_user_is_successfully_logged_in() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+
+}

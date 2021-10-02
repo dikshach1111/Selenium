@@ -1,0 +1,10 @@
+import java.sql.DriverManager;
+
+public class jdbcConnection {
+	
+	public static void main(String[] args) {
+		
+		DriverManager.getConnection(url, "root", "root");
+	}
+
+}

@@ -1,0 +1,26 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class jdbcConnection {
+	
+	public static void main(String[] args) throws SQLException {
+		
+		String host = "localhost";
+		String port="3306";
+		
+		//String url = "jdbc:mysql://"+host+":"+port+"/qadb";
+		
+		Connection con = DriverManager.getConnection("jdbc:mysql://"+host+":"+port+"/qadb", "root", "root");
+		
+		Statement s = con.createStatement();
+		ResultSet rs = s.executeQuery("select * from credentials where scenario='ZeroBalanceCard'");
+		while(rs.next()) {
+			System.out.println(rs.getString("userName"));
+			System.out.println(rs.getString("password"));
+		}
+	}
+
+}
