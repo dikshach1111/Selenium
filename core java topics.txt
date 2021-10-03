@@ -1,0 +1,16 @@
+- abstract
+-interface
+- inheritance
+-upcasting and downcasting
+- class object i.e. complete OOPS concept
+-Thread
+-.equals and ===
+- string functions
+-what is mean by static methods
+- encapsulation
+- annotations @findBy
+
+
+
+
+
