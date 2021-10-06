@@ -1,0 +1,53 @@
+package links;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Broken_Links_on_WebPage{
+
+	public static void main(String[] args) throws IOException {
+		System.setProperty("webdriver.chrome.driver", "C:/Softwares/chromedriver_win32/chromedriver.exe/");
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("http://www.google.com");
+		driver.manage().window().maximize();
+		
+		List<WebElement>list=driver.findElements(By.tagName("a"));
+		list.addAll(driver.findElements(By.tagName("img")));
+		
+		int size=list.size();
+		System.out.println("Total No. of Links::"+size);
+		
+		for(int i=0;i<size;i++) {
+			String web=list.get(i).getText();
+			System.out.println(web);
+			
+			URL url=new URL(list.get(i).getAttribute("href"));
+			HttpURLConnection connection=(HttpURLConnection)url.openConnection();
+			connection.connect();
+			String response=connection.getResponseMessage();
+			connection.disconnect();
+			System.out.println(list.get(i).getAttribute("href")+"--->"+response);
+			
+		}
+		
+		driver.close();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

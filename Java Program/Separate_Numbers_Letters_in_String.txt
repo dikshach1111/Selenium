@@ -1,0 +1,27 @@
+package Main_18;
+
+import java.util.Scanner;
+
+public class Separate_Number_Letters_in_String {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter The String Parameter::");
+		String a=sc.next();
+		sc.close();
+		String num="";
+		String str="";
+		for(int i=0;i<a.length();i++) {
+			if(Character.isDigit(a.charAt(i))) {
+				 num=num+a.charAt(i);
+			}
+			if(Character.isLetter(a.charAt(i))) {
+				str=str+a.charAt(i);	
+			}	
+		}
+		System.out.println("Separate Word :-"+str);
+		int b=Integer.parseInt(num);
+		System.out.println("Integer separate from String:-"+b);
+		
+	}
+}

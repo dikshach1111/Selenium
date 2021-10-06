@@ -1,0 +1,24 @@
+package Main_18;
+
+import java.util.Scanner;
+
+
+public class Sum_of_Numbers_in_String{
+
+	 public static void main(String [] args){
+
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter the String Value:");
+		 String a=sc.next();
+		 sc.close();
+		 int b=a.length();
+		 int sum=0;
+		 for(int i=0;i<b;i++){
+		 if(Character.isDigit(a.charAt(i))){
+		        sum=Character.getNumericValue(a.charAt(i))+sum;
+		 }
+		 }
+		 System.out.println("sum of numbers in String:" +sum);
+
+	 }
+}

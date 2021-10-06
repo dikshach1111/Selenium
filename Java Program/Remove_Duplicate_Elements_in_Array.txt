@@ -1,0 +1,38 @@
+package Main_18;
+
+import java.util.Scanner;
+
+public class Remove_Duplicate_Element_in_Array {
+
+	public static void main(String[]args) {
+		
+	   Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size of Array::" );
+		int n=sc.nextInt();
+		
+		System.out.println("Enter the Elements of Array:" );
+		String [] a=new String[n];
+		for(int i=0;i<=n-1;i++) {
+			a[i]=sc.next();	
+		}
+		sc.close();
+		
+		/*String []a= {"sanket","nilesh","sanket","viraj"};
+		int n=a.length;*/
+		
+		for(int i=0;i<=n-1;i++) {
+			for(int j=i+1;j<=n-1;j++) {
+				if(a[i].equals(a[j])) {
+					a[i]=a[j];
+					a[j]=" ";
+				}
+			}
+		}
+		System.out.println("Array Elements after remove duplicate::");
+		for(int i=0;i<=n-1;i++) {
+			if(a[i]!=" ") {
+				System.out.println(a[i]);
+			}
+		}
+	}
+}

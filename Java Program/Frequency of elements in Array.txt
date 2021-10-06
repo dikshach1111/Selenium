@@ -1,0 +1,31 @@
+Program-:Frequency of elements in Array;
+
+package Upcasting_DownCasing;
+
+public class Frequency_of_Elements_inArray {
+
+	public static void main(String[] args) {
+
+		String s[]= {"sanket","nilesh","komal","sanket"};
+		int[] size=new int[s.length];
+
+		
+
+		for(int i=0;i<s.length;i++){
+		size[i]=1;
+		for(int j=i+1;j<s.length;j++){
+		if(s[i]==s[j]){
+		size[i]++;
+		s[i]=s[j];
+		s[j]=" ";
+		}
+		}
+		}
+		System.out.println("count of elements in Array::");
+		for(int i=0;i<s.length;i++){
+		if(s[i]!=" "){
+		System.out.println(s[i]+"="+size[i]);
+		}
+		}
+ }
+}

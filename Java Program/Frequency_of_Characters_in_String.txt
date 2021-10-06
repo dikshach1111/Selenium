@@ -1,0 +1,35 @@
+
+package Main_18;
+
+import java.util.Scanner;
+
+public class Frequency_of__Characters_in_String {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String value::" );
+		String val=sc.next();
+		int [] size=new int[val.length()];
+		
+		char[] c=val.toCharArray();
+		int i,j;
+		
+		for(i=0;i<val.length();i++) {
+			size[i]=1;
+			for(j=i+1;j<val.length();j++) {
+				if(c[i]==c[j]) {
+					size[i]++;
+					
+					c[j]=' ';
+					
+				}
+			}
+		}
+		System.out.println("frequency of characters in String::" );
+		for(i=0;i<size.length;i++) {
+			if(c[i]!=' ') {
+				System.out.println(c[i]+"-"+ size[i]);
+			}
+		}
+	}
+}
