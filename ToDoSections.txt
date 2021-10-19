@@ -5,3 +5,76 @@ Section 30: Selenium Framework Optimization & Interview questions
 Section 32: Java OOPS Basics for Selenium Part -1
 
 Section 34: Core Java Tutorial - Part 3-Collections API
+
+
+10/11 => testNG
+10/12=> programs  =>watch video of armstrong
+10/13=> jenkins
+10/14=> log4j
+10/15=> maven
+10/16 => selenium
+10/17 =>manual testing
+10/18 => cucumber
+10/19 =>POM
+10/20 =>git
+10/21 =>extent reports
+10/22=>excel
+10/23=>core java
+10/24=>ssl, core java
+ 
+=>end-end project
+
+
+
+
+recording questions
+===========================
+1. tell me about yourself and what u have done in automation
+2. what is your daily routine as a QA tester
+    => after allocation of user stories, on requirement basis, i write POM classes
+       for which module i want to test. after that i write test scripts. I do
+       regression shoot, parallel testing and cross browser testing.
+       Mainly i do functional testing.
+
+3. have u created entire framework from scratch
+   =>framework already created by team lead.
+   
+    framework expl-
+    - using maven framework with POM archi
+    - by default two folders r present src/main(maintain main classes) and src/test(maintain test classes)
+    - creates configuration and test data folder to maintain xcel sheet data files, test report folder to maintain test reports 
+    -
+4. how to run parallel test cases
+5.how to include/exclude
+6. how to use groups 
+7. @listener annotation
+8. how u generate reports/test reports
+9. use of testng.xml file
+
+
+
+
+===============================================================================
+Daily routine
+1. Look up for stories
+2. Write/exceute test plan
+3. how many defects are fixed
+4. discuss defects with DEV
+5. report new defects
+6. write automation test scripts for new features and push new test scripts to repo
+7. Test modules, do smoke/sanity/retesting/regression.
+
+==================================================================================
+
+Roles and responsibilities
+1. understand FRS doc
+2. prepare test cases from test scenario and then writing and executing test scripts in modified build.
+3. i was involved in agile model.
+
+
+
+=============================================================================
+
+
+My name is ___ and i work as ___ at ____. Where i am primarily responsible for test automation.
+i have xp of __ yrs. I have exp in functional testing, regression testing, smoke testing and end-end testing.
