@@ -78,3 +78,102 @@ Roles and responsibilities
 
 My name is ___ and i work as ___ at ____. Where i am primarily responsible for test automation.
 i have xp of __ yrs. I have exp in functional testing, regression testing, smoke testing and end-end testing.
+
+
+
+=======================================================================================
+
+
+
+
+
+
+
+
+
+
+1. In manual testing what u have done? API?Performance?Mobile?
+2. qualities any software tester should have?
+   --> analytical, out of box thinking, should have attitude to break/crash system, knowledge about domain
+       good communication skill
+
+3. what is conditional signoff --> we r done with testing now s/w or product can be released in production
+                  --> there r 10 modules and u tested only 8 modules, so in report u write functionality is working fine
+                      but we were not able to test 2 modules
+4. what is hot fix --> once bug is found dev and QA immedialey conduct meeting and release patch, they remove 
+                       prev patch and new patch will b used
+5. bug likegae  --> while testing we miss bug and during UAT end user found bug
+6. alpha vs beta? have u done beta testing - No? does aplha and beta testing environment is same/different?
+7. what is release notes ? can we mention conditional signoff in release note
+8.scenario - new functionality is added and u r only one tester 
+    ->understand requirement, find all possible scenarios -> write down test cases,
+      send test cases for review, after approval, 
+      start creating tracebility matrix(to verify whether i have written test cases for all requirements or not),
+      start execution, defect tracking process, defect education report, retrospect meeting
+9. what is test suite --> test suite cotains collection of test cases
+10. have you worked on agile module? 
+    what is epic? --> when new requirement comes, as a proj manager i will create epic in which basic 
+                      requirements will be added, inside that will create multiple stories(divide epic into subdivision called story)
+11. for GUI->check look n feel, user friendly, new features should be added
+12. advantage of having test case design techniques 
+13. given sceanrio and requirements you tell me what are ad-hoc scenarios for that?
+    i have zoom link and mail id, i have this to you, now u click on link, we started looking at each other
+    then tell me ad-hoc sceanrios 
+     - verify link is working
+     - verify we connected with right host
+     - verify when click on link video and audio are enabled
+     - u enetred wrong email id then it will be delievered to wrong person
+     - verify time should be same
+     - modify url and check still we r connected/not
+14. purpose of writing test cases
+    - it will increase test covergae area
+    - reusable test cases
+    - verify s/w satisfy end-user requirement
+    - can provide high quality product 
+15. what will u do when u found bug and developer mark it as duplicate
+    - before sending i will check whether it is already logged
+    - then if developer mark it as duplicate and u know that previously it is not looged
+       then you can tell what is prev bug and what is current bug is behaving that u have found is different
+16. what will u do to avoid duplicate bug -> before reporting bug search whetehr other tester/ previously
+                                            similar bug is reported
+17. what is prototype model --> it is dummy software which acts like real s/w
+    what is disadv of prototype model -> time required to create prototype model, so cz of this
+                                         will get delayed to build actual s/w
+18. when you should stop testing -> if application do not have any crtical/high bugs,
+                                    if according to business requirement appliction is working fine
+19. 4 principles of s/w testing--> 
+
+
+
+
+===============================================================================================
+                                             
+1. basic knowledge required, types of testing
+2. should be able to write test cases of anything e.g. pen, lift, laptop
+3. should have exp in white, black and grey box testing
+4. differences along with e.g. where you used regression testing n all
+   a. regression vs retesting
+   b. smoke vs sanity
+   c. high priority vs low priority
+   d. severity vs priority
+   e. what is ad-hoc testing and performance testing, monkey testing
+   f. functional vs non-functional
+
+5. what is load testing
+6. when to start testing and when to stop testing
+7. what is boundry value analysis with eg
+8. What is RTM, what is x and y axis in RTM
+9. how to handle defect, how to report bug, what type of bug tracking tool u r using, defect flow
+10. components of bug report --> bug id,description, version, steps to reproduce,visual proof, actual expected,
+                                 detected by,status, fixed by,priority, severity
+11. defect life cycle, sdlc, stlc
+12. for bug tracking which tool is used and for project management which tool u used
+    --> suppose JIRA then, how u submit report in JIRA
+13. domain knowledge like healthcare, web application, e-commerce, banking
+14. basic sql queries, 
+    differences 
+    a. truncate vs delete
+    b. joins concept
+    c. DML, DDL related commands
+
+15. scenario - u found bug and dev is not ready to take bug how will u convience dev/BA
