@@ -85,13 +85,6 @@ i have xp of __ yrs. I have exp in functional testing, regression testing, smoke
 
 
 
-
-
-
-
-
-
-
 1. In manual testing what u have done? API?Performance?Mobile?
 2. qualities any software tester should have?
    --> analytical, out of box thinking, should have attitude to break/crash system, knowledge about domain
@@ -177,3 +170,9 @@ i have xp of __ yrs. I have exp in functional testing, regression testing, smoke
     c. DML, DDL related commands
 
 15. scenario - u found bug and dev is not ready to take bug how will u convience dev/BA
+
+================================================================================================
+1. stages involved in SDLC and in STLC
+2. what is defect
+3. types of integration testing
+4. what are meetings test engineer can be part of?
